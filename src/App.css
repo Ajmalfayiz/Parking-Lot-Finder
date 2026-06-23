@@ -1,0 +1,84 @@
+/* Basic reset for clean styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Header Container */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Logo Styling */
+.brand-logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333333;
+}
+
+/* Navigation List */
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem; /* Spacing between links */
+}
+
+/* Navigation Links */
+.main-nav a {
+  text-decoration: none;
+  color: #555555;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+  color: #007bff;
+}
+
+/* Action Buttons Container */
+.header-actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* Shared Button Styles */
+.header-actions a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* Specific Button Styles */
+.btn-login {
+  color: #333;
+  background: transparent;
+}
+
+.btn-login:hover {
+  color: #007bff;
+}
+
+.btn-signup {
+  color: #ffffff;
+  background-color: #007bff;
+}
+
+.btn-signup:hover {
+  background-color: #0056b3;
+}
+
+.font{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
